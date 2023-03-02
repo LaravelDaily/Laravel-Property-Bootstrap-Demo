@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<x-app-layout>
     <div class="hero">
       <div class="hero-slide">
         <div
@@ -834,4 +832,4 @@
         </div>
       </div>
     </div>
-@endsection
+</x-app-layout>

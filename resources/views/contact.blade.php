@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<x-app-layout>
     <div
       class="hero page-inner overlay"
       style="background-image: url('images/hero_bg_1.jpg')"
@@ -119,4 +117,4 @@
       </div>
     </div>
     <!-- /.untree_co-section -->
-@endsection
+</x-app-layout>
