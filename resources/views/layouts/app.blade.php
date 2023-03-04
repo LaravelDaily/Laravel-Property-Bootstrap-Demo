@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
 
+      @livewireStyles
+
     <title>
       Property &mdash; Free Bootstrap 5 Website Template by Untree.co
     </title>
@@ -54,7 +56,7 @@
             >
               <li class="active"><a href="/">Home</a></li>
               <li class="has-children">
-                <a href="properties.html">Properties</a>
+                <a href="{{ route('properties') }}">Properties</a>
                 <ul class="dropdown">
                   <li><a href="#">Buy Property</a></li>
                   <li><a href="#">Sell Property</a></li>
@@ -202,6 +204,7 @@
       </div>
     </div>
 
+      @livewireScripts
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/tiny-slider.js"></script>
     <script src="js/aos.js"></script>
