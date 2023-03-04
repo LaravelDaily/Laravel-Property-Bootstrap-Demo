@@ -22,3 +22,4 @@ Route::view('about', 'about')->name('about');
 Route::view('contact', 'contact')->name('contact');
 
 Route::get('properties', [PropertyController::class, 'index'])->name('properties');
+Route::get('properties/{property}', [PropertyController::class, 'show'])->name('properties.show');
